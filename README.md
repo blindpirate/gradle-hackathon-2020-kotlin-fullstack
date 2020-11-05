@@ -11,4 +11,4 @@ Three modules:
 
 # Build and run
 
-Run `./gradlew bootRun` and open `http://localhost:8080`, you can see the demo.
+Run `./gradlew server:bootRun` and open `http://localhost:8080`, you can see the demo.
