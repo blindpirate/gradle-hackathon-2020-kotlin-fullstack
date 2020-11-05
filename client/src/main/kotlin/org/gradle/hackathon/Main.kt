@@ -42,7 +42,7 @@ class IndexPage : RComponent<RProps, IndexPageState>() {
         +"How many shapes would you like to load?"
         BootstrapFormControl {
             attrs.type = "number"
-            attrs.placeholder = "tiles"
+            attrs.placeholder = "how many?"
             attrs.ref = numberInput
         }
         BootstrapButton {
