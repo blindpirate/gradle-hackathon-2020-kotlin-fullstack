@@ -1,0 +1,7 @@
+include(":server")
+include(":client")
+include(":shared")
+
+rootProject.children.forEach { 
+    it.buildFileName = "${it.name}.gradle.kts"
+}
